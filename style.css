@@ -3,10 +3,21 @@
     padding:0;
     box-sizing:border-box;
 }
+@font-face {
+    font-family: 'GTAmerica';
+    src: url('GTAmerica/gt-america-expanded-bold-webfont.woff2') format('woff2'),
+         url('GTAmerica/gt-america-expanded-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
-    background-image:linear-gradient(120deg,#000000,#272727);
+    background-image:linear-gradient(120deg,#000000,#1d1c1c);
     color:white;
-    font-family
+    font-family:'GTAmerica';
+    font-weight:normal;
+    font-style: normal; 
+    font-size:100%;
     min-height: 100vh;
 }
 header{
@@ -49,4 +60,12 @@ form input,form button{
   .insidecontent{
       margin-left:5vh;
       margin-top:2vh;
+      margin-right:20vh;
+  }
+  p{
+      font-size:1.5em;
+  }
+  .bottom{
+      margin-left:5vh;
+      margin-top:20vh;
   }
