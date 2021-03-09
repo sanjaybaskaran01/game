@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: 'gt_americaexpanded_bold';
+    src: url('gt-america-expanded-bold-webfont.woff2') format('woff2'),
+         url('gt-america-expanded-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    background: black;
+    font-family: 'gt_americaexpanded_bold';
+    
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+.image{
+    width: 100vw;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+
+
+}
+
+h1{
+    color: white;
+    margin: 0 auto;
+    text-decoration: underline;
+    font-size: 4rem;
+    margin-top: 30px;
+    
+    
+}
+table {
+    color: white;
+    
+    margin-left: 25rem; 
+    margin-top: 20px;
+    position: relative;
+    
+    width: 80%;
+     
+    height: 80%;
+    border-collapse: separate;
+  border-spacing: 15px;
+
+  
+} 
+
+td{
+    text-align: center;
+    
+    column-width: 100%;
+    font-size: 3rem;
+}
+.tabla{
+    height: 500px;
+    overflow:auto;             
+}
+
+
+
+/* width */
+.tabla::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  .tabla::-webkit-scrollbar-track {
+    background:  #555; 
+  }
+   
+  /* Handle */
+  .tabla::-webkit-scrollbar-thumb {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle on hover */
+  .tabla::-webkit-scrollbar-thumb:hover {
+    background: rgb(175, 175, 175); 
+  }
